@@ -4,8 +4,8 @@
 #include <stdint.h>
 
 extern "C" {
-    #include "yespower-1.0.1/sha256.h"
-    #include "yespower-1.0.1/yespower.h"
+    #include "yespower-1.0.1-power2b/sha256-p2b.h"
+    #include "yespower-1.0.1-power2b/yespower-p2b.h"
     #include "bcrypt.h"
     #include "blake.h"
     #include "c11.h"

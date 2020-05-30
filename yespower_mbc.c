@@ -1,4 +1,4 @@
-#include "yespower-1.0.1-power2b/yespower.h"
+#include "yespower-1.0.1-power2b/yespower-p2b.h"
 
 void yespower_hash(const char *input, char *output, uint32_t len) {
     static const yespower_params_t params = {
@@ -8,5 +8,5 @@ void yespower_hash(const char *input, char *output, uint32_t len) {
         .pers = "Now I am become Death, the destroyer of worlds",
         .perslen = 46
     };
-    yespower_tls( (yespower_binary_t*)input, len, &params, (yespower_binary_t*)output );
+    yespower_tls_p2b( (yespower_binary_t_p2b*)input, len, &params, (yespower_binary_t_p2b*)output );
 }

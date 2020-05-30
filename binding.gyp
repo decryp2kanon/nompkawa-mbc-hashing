@@ -4,9 +4,9 @@
             "target_name": "multihashing",
             "sources": [
                 "multihashing.cc",
-                "yespower_sugarchain.c",
-                "yespower-1.0.1/sha256.c",
-                "yespower-1.0.1/yespower-opt.c",
+                "yespower_mbc.c",
+                "yespower-1.0.1-power2b/sha256-p2b.c",
+                "yespower-1.0.1-power2b/yespower-opt-p2b.c",
                 "bcrypt.c",
                 "blake.c",
                 "boolberry.cc",
