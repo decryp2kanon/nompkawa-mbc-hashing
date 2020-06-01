@@ -4,7 +4,7 @@
             "target_name": "multihashing",
             "sources": [
                 "multihashing.cc",
-                "yespower_sugarchain.c",
+                "yespower_cranepay.c",
                 "yespower-1.0.1/sha256.c",
                 "yespower-1.0.1/yespower-opt.c",
                 "bcrypt.c",
